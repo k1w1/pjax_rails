@@ -1,6 +1,8 @@
 PJAX for Rails 3.1+
 ===================
 
+k1w1: Updated to support per-controller layouts.
+
 Integrate Chris Wanstrath's [PJAX](https://github.com/defunkt/jquery-pjax) into Rails 3.1+ via the asset pipeline.
 
 To activate, add this to your app/assets/javascripts/application.js (or whatever bundle you use):
