@@ -24,7 +24,7 @@ module Pjax
     end
     
     def defined_layout
-      self.respond_to?(:controller_layout) ? controller_layout : 'application'
+      self.respond_to?(:controller_layout, true) ? controller_layout : 'application'
      end
 
     def pjax_container
